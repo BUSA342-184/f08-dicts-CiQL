@@ -45,16 +45,16 @@ if __name__ == "__main__":
     
     print('--- FROM USER ---')
     for user, count in sorted(from_user.items()):
-        print(f'{user},{count}')
+        print(f'{user},{count}\n')
     
     print('--- FROM HOST ---')
     for host, count in sorted(from_host.items()):
-        print(f'{host},{count}')
+        print(f'{host},{count}\n')
     
     print('--- TO USER ---')
     for user, count in sorted(to_user.items()):
-        print(f'{user},{count}')
+        print(f'{user},{count}\n')
     
     print('--- TO HOST ---')
     for host, count in sorted(to_host.items()):
-        print(f'{host},{count}')
+        print(f'{host},{count}\n')
